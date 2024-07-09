@@ -39,7 +39,6 @@ cd preprocess/SimCSE/train_SimCSE
 sh train.sh
 ```
 
-Of course, you can also prepare the SimCSE model by your custom dataset. 
 
 #### Step1.2: 获取文本向量的具体表示
 
