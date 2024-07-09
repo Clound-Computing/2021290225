@@ -29,6 +29,8 @@ transformers==4.0.0
 
 ### Step 1: 获取帖子和新闻环境的表示形式
 
+可能会因为网络原因无法加载相关分词器模型，需要从https://huggingface.co/google-bert/bert-base-uncased中自行下载到本地
+
 #### Step1.1: 准备SimCSE模型
 
 由于GitHub的空间限制，作者通过[Google Drive](https://drive.google.com/drive/folders/1J8p6ORqOhlpjl2lWAWq43pgUdG1O0L9T?usp=sharing)上传SimCSE的训练数据。您需要下载数据集文件(即' [dataset]_train.txt ')，并将其移动到此repo的' preprocess/SimCSE/train_SimCSE/data '中。然后:
